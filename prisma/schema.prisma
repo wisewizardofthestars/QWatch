@@ -22,12 +22,18 @@ model Canteen {
   id           String      @id @default(uuid())
   canteenName  String
   capacity     Int
-  latitude     String
-  longitude    String
+  coordinates     String
   //menus     Menu[]
   social       Boolean
   university   University? @relation(fields: [universityId], references: [id])
   universityId String?
+  monday       String?
+  tuesday      String?
+  wednesday    String?
+  thursday     String?
+  friday       String?
+  saturday     String?
+  sunday       String?
 }
 
 model University {
