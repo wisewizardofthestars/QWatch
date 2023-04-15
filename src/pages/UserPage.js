@@ -73,7 +73,7 @@ function UserPage() {
               </div>
               <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm leading-5 font-medium text-gray-500">
-                  Address
+                  University
                 </dt>
                 <dd className="mt-1 text-sm leading-5 text-gray-900 sm:mt-0 sm:col-span-2">
                   IST <br />
@@ -94,13 +94,7 @@ function UserPage() {
         <a href="/" className="text-3xl font-bold text-indigo-500">QWatch</a>
         <p className="text-gray-600">Made with ❤️ by Roadtrip To Coimbra</p>
       </div>
-      <div>
-        <ul className="flex space-x-6">
-          <li><a href="#"><i className="fab fa-facebook fa-lg"></i></a></li>
-          <li><a href="#"><i className="fab fa-twitter fa-lg"></i></a></li>
-          <li><a href="#"><i className="fab fa-instagram fa-lg"></i></a></li>
-        </ul>
-      </div>
+      
     </div>
     <p className="text-gray-600 text-center">© 2023 QWatch. All rights reserved.</p>
   </footer>

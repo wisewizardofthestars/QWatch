@@ -6,13 +6,13 @@ function MainPage() {
       {/* Navigation */}
       <nav className="flex justify-between items-center bg-white py-4 px-6 shadow-md">
         <div>
-          <a href="#" className="text-3xl font-bold text-indigo-500">QWatch</a>
+          <a href="/" className="text-3xl font-bold text-indigo-500">QWatch</a>
         </div>
         <div>
           <ul className="flex space-x-6 text-gray-600 ">
             <li><a href="/" className="hover:text-black hover:font-bold">Home</a></li>
             <li><a href="/study" className="hover:text-black hover:font-bold">Study Rooms</a></li>
-            <li><a href="/cantine" className="hover:text-black hover:font-bold">Cantines</a></li>
+            <li><a href="/canteen" className="hover:text-black hover:font-bold">Canteens</a></li>
             <li><a href="/profile" className="hover:text-black hover:font-bold">My Profile</a></li>
             <li><a href="/contact" className="hover:text-black hover:font-bold" >Contact</a></li>
           </ul>
@@ -23,7 +23,7 @@ function MainPage() {
       <section className="bg-indigo-500 py-20 px-6 text-center text-white">
         <h1 className="text-4xl font-bold mb-4">Welcome to QWatch!</h1>
         <p className="text-lg mb-8">End unecessay qeues and full packed study rooms</p>
-        <a href="#"               className="text-black bg-indigo-300 py-3 px-6 rounded-full font-bold  hover:text-white hover:bg-gray-500 transition duration-300 ease-in-out">Join the Q</a>
+        <a href="/" className="text-black bg-indigo-300 py-3 px-6 rounded-full font-bold  hover:text-white hover:bg-gray-500 transition duration-300 ease-in-out">Join the Q</a>
       </section>
 
       {/* Features section */}

@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import UniversityList from './UniversityList';
 
 function CantinePage() {
   return (
@@ -11,13 +12,19 @@ function CantinePage() {
         <div>
           <ul className="flex space-x-6 text-gray-600 ">
             <li><a href="/" className="hover:text-black hover:font-bold">Home</a></li>
-            <li><a href="/cantine" className="hover:text-black hover:font-bold">Cantines</a></li>
+            <li><a href="/cantine" className="hover:text-black hover:font-bold">Canteens</a></li>
             <li><a href="/study" className="hover:text-black hover:font-bold">Study Rooms</a></li>
             <li><a href="/profile" className="hover:text-black hover:font-bold">My Profile</a></li>
             <li><a href="/contact" className="hover:text-black hover:font-bold" >Contact</a></li>
           </ul>
         </div>
       </nav>
+
+     {/* Main content */}
+     <main>
+        <UniversityList />
+      </main>
+
        
 
     {/* Footer */}
