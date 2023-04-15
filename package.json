@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "pnpm start",
-    "build": "pnpm run build",
-    "test": "pnpm test"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +34,11 @@
   },
   "devDependencies": {
     "pnpm": "^8.2.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.1"
   }
 }
