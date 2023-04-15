@@ -4,8 +4,10 @@ import UserPage from './pages/UserPage';
 import StudyPage from './pages/StudyPage';
 import CantinePage from './pages/CantinePage';
 import ContactPage from './pages/ContactPage';
-import ISTcanteen from './pages/ISTcanteen';
-import FCTcanteen from './pages/FCTcanteen';
+import ISTcanteen from './pages/canteens/ISTcanteen';
+import FCTcanteen from './pages/canteens/FCTcanteen';
+import UCcanteen from './pages/canteens/UCcanteen';
+import ISTstudy from './pages/study/ISTstudy';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('main');
@@ -30,6 +32,13 @@ function App() {
     else if (path === '/FCTcanteen') {
       setCurrentPage('FCTcanteen');
     }
+    else if (path === '/UCcanteen') {
+      setCurrentPage('UCcanteen');
+    }
+    else if (path === '/ISTstudy') {
+      setCurrentPage('ISTstudy');
+    }
+
 
   }, []);
 
@@ -53,6 +62,12 @@ function App() {
     }
     else if (currentPage === 'FCTcanteen') {
       return <FCTcanteen />;
+    }
+    else if (currentPage === 'UCcanteen') {
+      return <UCcanteen />;
+    }
+    else if (currentPage === 'ISTstudy') {
+      return <ISTstudy />;
     }
 
   

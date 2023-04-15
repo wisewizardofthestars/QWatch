@@ -1,5 +1,5 @@
 import React from 'react';
-import UniversityList from './UniversityList';
+import StudyUniversityList from './StudyUniversityList';
 
 function StudyPage() {
   return (
@@ -22,7 +22,7 @@ function StudyPage() {
        
       {/* Main content */}
       <main>
-        <UniversityList />
+        <StudyUniversityList />
       </main>
 
       {/* Footer */}
