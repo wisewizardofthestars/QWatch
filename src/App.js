@@ -8,6 +8,7 @@ import ISTcanteen from './pages/canteens/ISTcanteen';
 import FCTcanteen from './pages/canteens/FCTcanteen';
 import UCcanteen from './pages/canteens/UCcanteen';
 import ISTstudy from './pages/study/ISTstudy';
+import ISTreviewStudy from './pages/reviews/ISTreviewStudy';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('main');
@@ -37,6 +38,9 @@ function App() {
     }
     else if (path === '/ISTstudy') {
       setCurrentPage('ISTstudy');
+    }
+    else if (path === '/ISTreviewStudy') {
+      setCurrentPage('ISTreviewStudy');
     }
 
 
@@ -68,6 +72,9 @@ function App() {
     }
     else if (currentPage === 'ISTstudy') {
       return <ISTstudy />;
+    }
+    else if (currentPage === 'ISTreviewStudy') {
+      return <ISTreviewStudy />;
     }
 
   

@@ -23,7 +23,7 @@ function MainPage() {
       <section className="bg-indigo-500 py-20 px-6 text-center text-white">
         <h1 className="text-4xl font-bold mb-4">Welcome to QWatch!</h1>
         <p className="text-lg mb-8">End unecessay qeues and full packed study rooms</p>
-        <a href="/" className="text-black bg-indigo-300 py-3 px-6 rounded-full font-bold  hover:text-white hover:bg-gray-500 transition duration-300 ease-in-out">Join the Q</a>
+        <a href="/study" className="text-black bg-indigo-300 py-3 px-6 rounded-full font-bold  hover:text-white hover:bg-gray-500 transition duration-300 ease-in-out">Join the Q</a>
       </section>
 
       {/* Features section */}

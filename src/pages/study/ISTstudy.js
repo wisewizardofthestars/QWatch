@@ -35,7 +35,7 @@ function ISTstudy() {
       <section className="mt-12 mb-12 px-6">
         <h2 className="text-3xl font-bold text-center mb-8">Pavilhão de Mecânica III - V1.2</h2>
         <li className="flex justify-center m-5">
-        <a href="/ISTreview" className=" text-black bg-indigo-300 py-3 px-6 rounded-full font-bold  hover:text-white hover:bg-gray-500 transition duration-300 ease-in-out">Review</a>
+        <a href="/ISTreviewStudy" className=" text-black bg-indigo-300 py-3 px-6 rounded-full font-bold  hover:text-white hover:bg-gray-500 transition duration-300 ease-in-out">Review</a>
         </li>
         <div className="flex flex-col sm:flex-row justify-center space-y-8 sm:space-x-8 sm:space-y-0">
           <div className="bg-white p-8 rounded-lg shadow-lg flex-1">
@@ -49,6 +49,9 @@ function ISTstudy() {
             <p className=" font-bold text-gray-600">Segunda a Sexta</p>
             <p className="text-gray-600">06h00 - 20h00</p>
 
+            <h3 className="text-xl font-bold mt-4 ">Entrada:</h3>
+            <p className="text-gray-600">Apenas para estudantes de LEmec</p>
+
           </div>
           <div className="bg-white p-8 rounded-lg shadow-lg flex-1">
             <i className="fas fa-mobile-alt text-indigo-500 text-4xl mb-4"></i>
@@ -58,31 +61,16 @@ function ISTstudy() {
 
             
 
-            <p className=" font-bold text-gray-600">Lugares disponíveis</p>
-            <p className="text-gray-600">69/420</p>
+            <p className=" font-bold text-gray-600">Fichas Disponíveis:</p>
+            <p className="text-gray-600">4/6</p>
 
-            <p className=" font-bold text-gray-600">Reviews da refeição de hoje:</p>
-            <p className="text-gray-600">3.5/10</p>
+            <p className=" font-bold text-gray-600">Reviews da sala:</p>
+            <p className="text-gray-600">9.0/10</p>
 
-            <p className=" font-bold text-gray-600">Average tempo de refeição:</p>
+            <p className=" font-bold text-gray-600">Average tempo de estudo:</p>
             <p className="text-gray-600">35 minutos</p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-lg flex-1">
-            <i className="fas fa-laptop text-indigo-500 text-4xl mb-4"></i>
-            <h3 className="text-xl font-bold mb-4">Today's menu</h3>
-            <p className=" font-bold text-gray-600">Sopa:</p>
-            <p className="text-gray-600">Miso</p>
-
-            <p className=" font-bold text-gray-600">Prato:</p>
-            <p className="text-gray-600">Sushi do Social</p>
-
-            <p className=" font-bold text-gray-600">Sobremesa:</p>
-            <p className="text-gray-600">Mochi</p>
-
-            <p className=" font-bold text-gray-600">Custo de Refeição:</p>
-            <p className="text-gray-600">$2.80 - Mediante a apresentação de cartão de estudante da Ulisboa</p>
-            <p className="text-gray-600">$5.50 - Externos</p>
-          </div>
+          
         </div>
       </section>
 
