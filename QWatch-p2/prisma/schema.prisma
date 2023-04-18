@@ -1,0 +1,58 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id         String       @id @default(uuid())
+  email      String       @unique
+  name       String
+  password   String
+  university University[]
+}
+
+model Canteen {
+  id            String          @id @default(uuid())
+  canteenName   String
+  capacity      Int
+  coordinates   String
+  //menus     Menu[]
+  social        Boolean
+  university    University?     @relation(fields: [universityId], references: [id])
+  universityId  String?
+  monday        String?
+  tuesday       String?
+  wednesday     String?
+  thursday      String?
+  friday        String?
+  saturday      String?
+  sunday        String?
+  pplPresent    Int             @default(0)
+  totalPpl      Int             @default(0)
+  CanteenReview CanteenReview[]
+}
+
+model University {
+  id        String    @id @default(uuid())
+  name      String    @unique
+  shortName String?   @unique
+  imageURL  String?
+  canteens  Canteen[]
+  User      User[]
+}
+
+model CanteenReview {
+  id            String  @id @default(uuid())
+  canteen       Canteen @relation(fields: [canteenId], references: [id])
+  canteenId     String
+  canteenRating Int
+  foodRating    Int
+  comment       String?
+}
