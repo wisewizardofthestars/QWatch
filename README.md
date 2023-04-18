@@ -16,5 +16,5 @@ Furthermore, QWatch enables users to check the availability of study rooms in th
 - Prisma
 
 ## Links:
-- Link to our presentation: [Presentation](https://docs.google.com/presentation/d/1W6DpZv_aIZX9q3RY4KjW0N-1-FtF5r5N5Vy5Yi39blM/edit?usp=sharing)
-- Link to our Mobile App prototype: [Prototype](https://www.figma.com/proto/gIQZ8zgjVovLyZddu9eRLa/QWatch-MobileApp?node-id=1%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
+- Link to our [presentation](https://docs.google.com/presentation/d/1W6DpZv_aIZX9q3RY4KjW0N-1-FtF5r5N5Vy5Yi39blM/edit?usp=sharing)
+- Link to our Mobile App [prototype](https://www.figma.com/proto/gIQZ8zgjVovLyZddu9eRLa/QWatch-MobileApp?node-id=1%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
